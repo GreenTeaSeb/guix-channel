@@ -1,4 +1,4 @@
-(define-module (jetbrainsmono-nerd-font)
+(define-module (sveb packages jetbrainsmono-nerd-font)
 	       #:use-module (guix packages)
 	       #:use-module (guix download)
 	       #:use-module (guix licenses))

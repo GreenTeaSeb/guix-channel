@@ -23,7 +23,7 @@
                #:use-module (gnu packages python)
                #:use-module (gnu packages python-xyz))
 
-(define-public jetbrainsmono-nerd-font
+(define-public `jetbrainsmono-nerd-font
   (package
     (name "JetBrainsMono-Nerd-Font")
     (version "3.2.1")

@@ -12,7 +12,7 @@
     (source (origin
 	      (method url-fetch)
 	      (uri (string-append "https://github.com/ryanoasis/nerd-fonts/releases/download/v" version "/JetBrainsMono.zip"))
-	      (sha256 "6cf8822bc1ca18e34b06578c7499f380c019e6ffc883eed26df5f498dfcc4006")))
+	      (sha256 ("nt4iek6bzimogsygk6ghjgptqdabtzx7zcb65utn6x2jrx6miada")))
     (build-system font-build-system)
     (synopsis "Patched JetBrainsMono Nerd Font")
 		(description "Font")

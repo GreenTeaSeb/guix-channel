@@ -2432,3 +2432,5 @@ installed executable in cross platforms.")
     (synopsis "A post-modern modal text editor.")
     (description "A Kakoune / Neovim inspired editor, written in Rust.")
     (license (list license:mpl2.0))))
+
+helix

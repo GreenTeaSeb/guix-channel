@@ -30,5 +30,5 @@
     (build-system font-build-system)
     (synopsis "Patched JetBrainsMono Nerd Font")
     (home-page "https://github.com/ryanoasis/nerd-fonts")
-    (license license:silofl1.1)))
+   ))
     

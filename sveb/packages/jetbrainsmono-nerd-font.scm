@@ -4,9 +4,9 @@
 	       #:use-module (guix build-system font))
 	       #:use-module (guix licenses))
 
-(define jetbrainsmono-nerd-font
+(define-public jetbrainsmono-nerd-font
   (package
-    (name "JetBrainsMono Nerd Font")
+    (name "JetBrainsMono-Nerd-Font")
     (version "3.2.1")
     (source (origin
 	      (method url-fetch)

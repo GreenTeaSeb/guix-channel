@@ -19,4 +19,17 @@
     (home-page "https://github.com/ryanoasis/nerd-fonts")
     (license license:silofl1.1)))
 
-    
+(define-public font-monaspace-nerd
+  (package
+    (name "font-monaspace-nerd")
+    (version "3.2.1")
+    (source (origin
+	      (method url-fetch)
+	      (uri (string-append "https://github.com/ryanoasis/nerd-fonts/releases/download/v" version "/Monaspace.tar.xz"))
+	      (sha256 (base64 "5dLoGA1d8f5HO1mO2sX2fOOLHZBiSJNus4bdMyozg0Y="))))
+    (build-system font-build-system)
+    (synopsis "Patched Monaspace Nerd Font")
+		(description "Font")
+    (home-page "https://github.com/ryanoasis/nerd-fonts")
+    (license license:silofl1.1)))
+
